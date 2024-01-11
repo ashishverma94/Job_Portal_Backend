@@ -13,9 +13,10 @@ dotenv.config({
 
 const app = express() ;
 
-app.use('/',(req,res)=>{
-    res.json({message : "Hello from server"}) 
-})
+// app.use('/',(req,res)=>{
+//     res.json({message : "Hello from server"}) 
+// })
+
 // IMPORT ROUTES
 import authRoutes from './routes/authRoutes.js';
 import userRoutes from './routes/userRoutes.js';
